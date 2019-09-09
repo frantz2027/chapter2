@@ -5,7 +5,9 @@ public class MadLibs {
         String color;
         String WordEst;
         String bodyPart;
-        
+        String animal;
+        String noun;
+        String pluralNoun;
 
 
 
@@ -25,7 +27,7 @@ public class MadLibs {
         c = a%b;
 
         System.out.println("The " + color + " Dragon is the " + WordEst + " Dragon of all. ");
-        System.out.println("");
+        System.out.println("It ");
 
 
     }
