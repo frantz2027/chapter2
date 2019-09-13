@@ -22,12 +22,14 @@ public class MadLibs {
         WordEst = input.nextLine();
         System.out.print("enter a plural body part >>> ");
         bodyPart = input.nextLine();
+        System.out.print()
 
 
         c = a%b;
 
         System.out.println("The " + color + " Dragon is the " + WordEst + " Dragon of all. ");
-        System.out.println("It ");
+        System.out.println("It has " + c + bodyPart + ", and a " + animal + "shaped like a " + noun + "."
+        "It loves to eat" + pluralNoun + ", although it will feast on nearly anything.");
 
 
     }
